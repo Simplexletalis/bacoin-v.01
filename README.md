@@ -7,14 +7,12 @@ Copyright (c) 2009-2013 Bitcoin Developers
 Copyright (c) 2017-2017 Bacoin Developers
 
 
-Bacoind and bacoin-qt download:
-https://drive.google.com/open?id=0Byoh2-GPva0eYmVsb0d6NHpPWEk
-
 Gitter:
 https://gitter.im/Bacoins/Lobby
 
 
-
+Testing clients Bacoind and bacoin-qt download:
+https://drive.google.com/open?id=0Byoh2-GPva0eYmVsb0d6NHpPWEk
 
 
 
