@@ -1,6 +1,8 @@
 Bacoin integration/staging tree
 ================================
 
+[![Join the chat at https://gitter.im/Bacoins/Lobby](https://badges.gitter.im/Bacoins/Lobby.svg)](https://gitter.im/Bacoins/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 http://www.bacoin.org
 
 Copyright (c) 2009-2013 Bitcoin Developers
