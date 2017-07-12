@@ -12,6 +12,7 @@ To Build
 ---------------------
 
 	cd src/
+	mkdir obj
 	make -f makefile.unix		# Headless bacoin
 
 See readme-qt.rst for instructions on building Bacoin-Qt, the graphical user interface.
