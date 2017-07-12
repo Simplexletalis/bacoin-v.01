@@ -2761,7 +2761,7 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "Backed by the finest Bacon!";
+        const char* pszTimestamp = "NBCNews 7/12/17 Google and Facebook Join Net Neutrality Day to Protest FCC’s Proposed Rollback";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2773,7 +2773,7 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1499874160;
+        block.nTime    = 1499902601;
         block.nBits    = 504320386;
         block.nNonce   = 4004234497;
 
@@ -2788,7 +2788,7 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0x0412ba72a6bed36b40a9922dab1ca5ec5de6f5df2e0089049f49679278b85789"));
+        assert(block.hashMerkleRoot == uint256("0x"));
         block.print();
         assert(hash == hashGenesisBlock);
 
