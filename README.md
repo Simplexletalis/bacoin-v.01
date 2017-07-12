@@ -4,7 +4,23 @@ Bacoin integration/staging tree
 http://www.bacoin.org
 
 Copyright (c) 2009-2013 Bitcoin Developers
-Copyright (c) 2011-2013 Litecoin Developers
+Copyright (c) 2017-2017 Litecoin Developers
+
+
+Bacoind and bacoin-qt download:
+https://drive.google.com/open?id=0Byoh2-GPva0eYmVsb0d6NHpPWEk
+
+
+
+
+
+
+
+
+
+
+Anything below this may be innacurate and needs to be updated.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 What is Bacoin?
 ----------------
