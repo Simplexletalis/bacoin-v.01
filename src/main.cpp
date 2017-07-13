@@ -31,7 +31,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x91cca7eb318b6fb9d0a6490f41f6d3f6a17abcf7bff9903f63433a88b6fe138c");
+uint256 hashGenesisBlock("0x");
 static CBigNum bnProofOfWorkLimit = CBigNum().SetCompact(504320386); // Bacoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
