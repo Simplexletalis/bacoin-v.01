@@ -2728,7 +2728,7 @@ bool LoadBlockIndex()
         pchMessageStart[1] = 0xc1;
         pchMessageStart[2] = 0xb7;
         pchMessageStart[3] = 0xdc;
-        hashGenesisBlock = uint256("0x24cc7d6f4671085dbbc9127e178e6da81bfa89bfd5507c93119a388a8cabc01f");
+        hashGenesisBlock = uint256("0x");
     }
 
     //
@@ -2761,26 +2761,26 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "NBCNews 7/12/17 Google and Facebook Join Net Neutrality Day to Protest FCC’s Proposed Rollback";
+        const char* pszTimestamp = "NBCNews 7/13/17 Wray Says Russia Probe Not a ‘Witch Hunt,’ Pledges ‘Independent’ FBI";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
-        txNew.vout[0].nValue = 500000000;
+        txNew.vout[0].nValue = 5000000;
         txNew.vout[0].scriptPubKey = CScript() << ParseHex("00cf5e695c6cce57fde35d2df420a66c7b210c96f670dd6b4c32c75c576cd908e917368a29371e3eba792f8359f199d69154bc6f364ab13cc385340fe8766f57ad") << OP_CHECKSIG;
         CBlock block;
         block.vtx.push_back(txNew);
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1499902601;
+        block.nTime    = 1499951617;
         block.nBits    = 504320386;
-        block.nNonce   = 4004234497;
+        block.nNonce   = 0;
 
         if (fTestNet)
         {
-            block.nTime    = 1499874160;
-            block.nNonce   = 115095261;
+            block.nTime    = 1499951617;
+            block.nNonce   = 0;
         }
 
         //// debug print
